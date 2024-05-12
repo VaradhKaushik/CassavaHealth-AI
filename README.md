@@ -56,7 +56,7 @@ Download the APK, install it on your Android device, and follow the on-screen in
 ## How It Works
 CassavaHealth AI trains on a dataset of cassava leaf images, where each image undergoes preprocessing and augmentation before classification. Each of the five diseases has a dedicated binary classifier, ensuring high precision and reliability.
 
-
+![alt text](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RElrybCZ4WPsUfRwDl7fqA.png)
 
 
 
