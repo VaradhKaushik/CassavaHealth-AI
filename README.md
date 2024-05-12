@@ -14,19 +14,19 @@ To get a local copy up and running follow these simple steps:
 
 ### Prerequisites
 - Python 3.8+
-- pip
-- Git
+- Jupyter Notebook or JupyterLab (for running `.ipynb` files)
+
 
 ### Installation
 ```bash
 # Clone the repo
 git clone https://github.com/VaradhKaushik/CassavaHealth-AI.git
 
-# Navigate to the project directory
-cd CassavaHealth-AI
+# Navigate to the 'Code' directory within the cloned repository
+cd CassavaHealth-AI/Code
 
-# Install required packages
-pip install -r requirements.txt
+# Run the Jupyter Notebook
+jupyter notebook one-vs-all.ipynb
 ```
 
 ### Usage
