@@ -49,11 +49,11 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### Usage
-## Mobile Application
+## Usage
+### Mobile Application
 Download the APK, install it on your Android device, and follow the on-screen instructions to analyze cassava leaf images directly.
 
-### How It Works
+## How It Works
 CassavaHealth AI trains on a dataset of cassava leaf images, where each image undergoes preprocessing and augmentation before classification. Each of the five diseases has a dedicated binary classifier, ensuring high precision and reliability.
 
 
