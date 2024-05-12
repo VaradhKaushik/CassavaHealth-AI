@@ -18,6 +18,7 @@ To get a local copy up and running follow these simple steps:
 
 
 ### Installation
+```bash
 # Clone the repo
 git clone https://github.com/VaradhKaushik/CassavaHealth-AI.git
 
@@ -29,7 +30,7 @@ pip install -r requirements.txt
 
 # Run the Jupyter Notebook
 jupyter notebook one-vs-all.ipynb
-
+```
 
 ### Environment Setup
 It is recommended to use a virtual environment for Python projects to avoid conflicts between package versions. Follow these steps to set up and activate a virtual environment:
