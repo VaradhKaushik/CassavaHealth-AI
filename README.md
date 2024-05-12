@@ -18,15 +18,34 @@ To get a local copy up and running follow these simple steps:
 
 
 ### Installation
-```bash
 # Clone the repo
 git clone https://github.com/VaradhKaushik/CassavaHealth-AI.git
 
 # Navigate to the 'Code' directory within the cloned repository
 cd CassavaHealth-AI/Code
 
+# Install required packages
+pip install -r requirements.txt
+
 # Run the Jupyter Notebook
 jupyter notebook one-vs-all.ipynb
+
+
+### Environment Setup
+It is recommended to use a virtual environment for Python projects to avoid conflicts between package versions. Follow these steps to set up and activate a virtual environment:
+
+```bash
+# Install virtual environment if you don't have it
+pip install virtualenv
+
+# Create a virtual environment
+virtualenv venv
+
+# Activate the virtual environment
+# On Windows
+venv\Scripts\activate
+# On macOS and Linux
+source venv/bin/activate
 ```
 
 ### Usage
